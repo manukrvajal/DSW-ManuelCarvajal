@@ -1,0 +1,99 @@
+<!DOCTYPE html> 
+<html lang="es">   
+
+<head>
+
+  <meta charset="utf-8" >  
+  <meta http-equiv="X-UA-compatible" content="IE=edge" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conceptos Básicos de flexbox</title>
+  <link rel="stylesheet" href="CSS/diseño.css">
+
+</head>
+
+<body>
+  <header style="text-align: center;"> <h1>FLEX BOX</h1>  </header>
+  <nav>
+    <UL>
+      <li>
+          <h2>Temas</h2>
+      </li>
+      <ul>
+          <li>
+              <a href="file:///C:/Users/Nene/Documents/GitHub/DSW-ManuelCarvajal/Fase3/Index.html">Inicio</a>
+          </li>
+          <li>
+              <a href="file:///C:/Users/Nene/Documents/GitHub/DSW-ManuelCarvajal/Fase3/Tema1.html">Tema 1</a>
+          </li>
+           <li>
+              Tema 2
+          </li>
+           <li>
+              Tema 3
+          </li>
+      </ul>
+      
+      </ul>
+      
+    </UL>  
+  </nav>
+
+  <main>
+    <section>
+      <article>
+        <p>
+          <h1>Definicion:</h1> 
+          El Módulo de Caja Flexible, comúnmente llamado flexbox, fue diseñado como un modelo unidimensional de layout, y como un método que pueda ayudar a distribuir el espacio entre los 
+          ítems de una interfaz y mejorar las capacidades de alineación.
+        </p>
+
+      </article>
+      <article>
+        <h1> Los dos ejes de flexbox</h1>
+        <p>
+            Cuando trabajamos con flexbox necesitamos pensar en términos de dos ejes — el eje principal y el eje cruzado. El eje principal está definido por la propiedad flex-direction, y el eje cruzado es perpendicular a este. Todo lo que hacemos con flexbox está referido a
+            estos dos ejes, por lo que vale la pena entender cómo trabajan desde el principio.
+        </p>
+        <h1>El contenedor flex  </h1>
+        <p>
+            Un área del documento que contiene un flexbox es llamada contendedor flex. Para crear un contenedor flex, establecemos la propiedad del área del contenedor display como flex o inline-flex. Tan pronto como hacemos esto, los hijos directos de este contenedor se vuelven ítems flex. Como con todas las propiedades de CSS, se definen algunos valores iniciales, así que cuando creemos 
+            un contenedor flex todos los ítems flex contenidos se comportarán de la siguiente manera.
+            <br> -Los ítems se despliegan sobre una fila (la propiedad flex-direction por defecto es row).</br>
+            <br> -Los ítems empiezan desde el margen inicial sobre el eje principal.</br>
+            <br> -Los ítems no se ajustan en la dimensión principal, pero se pueden contraer.</br>
+            <br> -Los ítems se ajustarán para llenar el tamaño del eje cruzado.</br>
+            <br> -La propiedad flex-basis es definida como auto.</br>
+            <br> -La propiedad flex-wrap es definida como nowrap.</br>
+
+        </p>
+        <p>
+            El resultado es que todos los ítems se alinearán en una solo fila, usando el tamaño del contenedor como su tamaño en el eje principal. Si hay más ítems de los que caben en el contenedor, estos no pasarán más abajo si no que sobrepasarán el margen. Si hay ítems más altos que otros,
+             todos los ítems serán ajustados en el eje cruzado para alcanzar al mayor.
+        </p>
+
+        <p>
+            Se puede ver en el ejercicio en vivo de abajo cómo luce. Intente editar el ítem o añadir 
+            ítems adicionales para así probar el comportamiento inicial de flexbox.
+        </p>
+    </section>
+    <aside>
+      <img src="imagenes/flexbox.jpeg" alt="imagen3">
+    </aside>
+  </main>
+  <footer> <p>
+    Desarrollada por:
+    <br>Manuel Carvajal</br>
+    Correo:Manukrvajal1094@gmail.com
+  </p>
+ </footer>
+
+</body>
+    
+
+
+   
+
+
+
+
+</html>
