@@ -1,0 +1,24 @@
+header{
+    background-color: aqua;
+}
+nav{
+    background-color: aquamarine;
+}
+main{
+    
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+section{
+    background-color: antiquewhite;
+    grid-column: 1/4;
+}
+
+
+aside{
+    background-color: cornflowerblue;
+       
+}
+footer{
+    background-color: aquamarine;
+}
